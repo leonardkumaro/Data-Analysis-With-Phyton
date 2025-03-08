@@ -10,8 +10,8 @@ st.write("This web app is created to analyze bike rentals data and provide insig
 
 # Load data
 all_df = pd.read_csv('dashboard/all_data.csv')
-day_df = pd.read_csv('../data/day.csv')
-hour_df = pd.read_csv('../data/hour.csv')
+day_df = pd.read_csv('data/day.csv')
+hour_df = pd.read_csv('data/hour.csv')
 
 # Visualisasi 1: Jumlah Penyewa Sepeda Berdasarkan Bulan
 st.subheader("Number of Bike Rentals by Month")
