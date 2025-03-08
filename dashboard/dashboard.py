@@ -6,6 +6,7 @@ import matplotlib.pyplot as plt
 
 # Judul aplikasi
 st.title("Bike Rentals Analysis")
+st.write("This web app is created to analyze bike rentals data and provide insights for bike rental companies. The Bike Sharing Analysis helps us understand how people use bike-sharing services, where users can rent a bike from one location and return it to another automatically. This dataset includes hourly bike rental data from the Capital Bikeshare system for the years 2011 and 2012, along with weather and seasonal information that may affect bike usage. By analyzing this data through Exploratory Data Analysis (EDA), we can find patterns and factors that influence bike rentals. Additionally, creating a prediction model will help estimate the number of bike rentals per hour (cnt), allowing for better planning and management of the bike-sharing system.")
 
 # Load data
 all_df = pd.read_csv('all_data.csv')
