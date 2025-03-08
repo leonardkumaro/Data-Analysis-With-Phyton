@@ -117,7 +117,7 @@ st.pyplot(fig)
 
 # Menampilkan data top 5 dalam tabel
 st.subheader("Top 5 Data")
-st.write(top_5.reset_index())  # Menampilkan data dalam bentuk tabel
+st.write(top_5.reset_index(), use_container_width=True)  # Menampilkan data dalam bentuk tabel
 if st.button("View Analysis", key="analysis5"):
     st.write("Jika diperhatikan, jumlah penyewa sepeda tertinggi terjadi pada kondisi cuaca panas, kelembaban tinggi, dan kecepatan angin sangat rendah. Hal ini terjadi karena cuaca panas membuat orang ingin bersepeda, kelembaban tinggi membuat orang merasa nyaman, dan kecepatan angin yang sangat rendah membuat orang tidak terganggu oleh angin.")
     tutup2 = st.button("Close Analysis", key="close5")
